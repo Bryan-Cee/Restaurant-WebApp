@@ -1,0 +1,1 @@
+export const SHOW_RELATED_LIST = 'SHOW_RELATED_LIST';

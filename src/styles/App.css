@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.MenuList ul {
+  list-style: none;
+  margin: 4px 0;
+}
+
+.MenuList ul li {
+  padding: 0;
+}
+
+.spacing {
+  margin: 10px 0;
+}
