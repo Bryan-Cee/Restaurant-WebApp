@@ -1,11 +1,9 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Choices from "./Choices";
 
 const MenuList = ({menuItem}) => {
   const [choices, setChoices] = useState(false);
-  const [related, setRelated] = useState(false);
   const handleToggle = () => setChoices(!choices);
-  const handleToggleRelated = () => setRelated(!related);
 
   return (
     <li>
@@ -14,7 +12,6 @@ const MenuList = ({menuItem}) => {
       {choices &&
       <Choices
         choices={menuItem.choices}
-        handleRelatedItems={handleToggleRelated}
         relatedItems={menuItem.related}
       />
       }
