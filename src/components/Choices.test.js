@@ -24,7 +24,7 @@ describe('Choices Component', function () {
     wrapper = mount(<Choices {...props}/>);
   });
 
-  it('should render an li tag as the first child', function () {
+  it('should render an ul tag as the first child', function () {
     expect(wrapper.children().first().is('ul')).toBeTruthy();
   });
 

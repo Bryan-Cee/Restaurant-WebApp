@@ -37,9 +37,9 @@ describe('Choices Component', function () {
     wrapper = mount(<MenuList {...props}/>);
   });
 
-  afterEach(() => {
-    jest.clearAllMocks();
-  });
+  // afterEach(() => {
+  //   jest.clearAllMocks();
+  // });
 
   it('should render', function () {
     expect(wrapper.children().length).toEqual(1);
